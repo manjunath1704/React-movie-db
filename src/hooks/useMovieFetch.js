@@ -16,7 +16,7 @@ export const useMovieFetch = movieId => {
               const directors = credits.crew.filter(
                   member => member.job === 'Director'
               );
-  
+  console.log(movie,'movie');
               setState({
                   ...movie,
                   actors:credits.cast,
@@ -26,6 +26,7 @@ export const useMovieFetch = movieId => {
   
               setLoading(false);
         }
+        
         catch(error){
             setError(true);
         }

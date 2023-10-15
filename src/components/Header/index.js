@@ -11,7 +11,7 @@ const Header = ( ) => (
             <LogoImg src={RMDBLogo} alt='rmdb-logo' />
                  </Link>
             
-             <TMDBLogoImg src={TMDBLogo} alt='TMDBLogo-logo' />
+             {/* <TMDBLogoImg src={TMDBLogo} alt='TMDBLogo-logo' /> */}
         </Content>
     </Wrapper>
 )

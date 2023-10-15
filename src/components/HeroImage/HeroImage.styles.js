@@ -3,14 +3,14 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
 background: linear-gradient(
  to bottom,
- rgba(0,0,0,0) 41%,
-rgba(0,0,0,0.65) 100%
+ rgba(0,0,0,0.5) 41%,
+rgba(0,0,0,0.8) 100%
 
 ),
 url(${({ image }) => image }), var(--darkGrey);
 background-size:100%, cover;
-background-position:center;
-height:95vh;
+background-position:top;
+height:650px;
 position:relative;
 `;
 

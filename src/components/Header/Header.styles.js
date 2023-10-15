@@ -1,8 +1,15 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-background: var(--darkGrey);
+backdrop-filter: blur(16px) saturate(180%);
+-webkit-backdrop-filter: blur(8px) saturate(180%);
+background-color: rgba(1, 1, 1, 0.75);
+border: 1px solid rgba(255, 255, 255, 0.125);
 padding: 0 20px;
+position: fixed;
+top:0;
+width:100%;
+z-index:999;
 `;
 
 export const Content = styled.div`
